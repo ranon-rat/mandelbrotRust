@@ -1,0 +1,15 @@
+[package]
+name = "src"
+version = "0.1.0"
+authors = ["ranon rat <66473662+ranon-rat@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.3"
+
+
+[[bin]]
+name = "src"
+path = "main.rs"
